@@ -1,0 +1,13 @@
+name: "Transform OpenAPI to Postman Collection"
+description: "Transforms an OpenAPI schema into a Postman Collection."
+inputs:
+  openapi_schema:
+    description: "The OpenAPI schema"
+    required: true
+    type: string
+outputs:
+  postman_collection:
+    description: 'The Postman collection JSON generated from the OpenAPI schema'
+runs:
+  using: "node16"
+  main: "index.js"
