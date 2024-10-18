@@ -12,8 +12,7 @@ For a full list of actions and code, check here: [https://github.com/stcalica/po
 
    #### Inputs:
    - `postman_api_key`: Your Postman API key for authentication.
-   - `openapi_schema_url`: The URL of the OpenAPI schema you want to transform into a Postman collection.
-   - `destination_collection_id`: (Optional) If provided, this will be the UID of the Postman collection where the transformed schema will be stored.
+   - `openapi_schema`: TThe OpenAPI schema you want to transform into a Postman collection.
 
    #### Example Usage:
    ```yaml
