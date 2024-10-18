@@ -1,0 +1,12 @@
+{
+  "name": "transform-openapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "axios": "^1.6.0",
+    "openapi-to-postmanv2": "^4.24.0",
+    "postman2openapi": "^1.2.1"
+  }
+}
